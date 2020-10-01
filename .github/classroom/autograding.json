@@ -1,12 +1,12 @@
 {
   "tests": [
     {
-      "name": "run_check",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest",
+      "name": "hello",
+      "setup": "",
+      "run": "python hello.py",
       "input": "",
-      "output": "",
-      "comparison": "included",
+      "output": "Hello World!",
+      "comparison": "exact",
       "timeout": 10,
       "points": 1
     }
